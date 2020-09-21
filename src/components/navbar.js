@@ -10,9 +10,9 @@ export default function Navbar() {
                 <p>web developer</p>
             </div>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Toolkit</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About me</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>

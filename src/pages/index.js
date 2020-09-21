@@ -1,10 +1,18 @@
 import React from "react"
+
+//import general styles
+import "../styles/styles.css"
+
+// import component
+import Banner from "../components/banner"
 import Navbar from "../components/navbar"
 import Header from "../components/header"
+
 
 export default function Home() {
   return (
     <div>
+      <Banner></Banner>
       <Navbar></Navbar> 
       <Header headerText="Hello Gatsby!" />
       <p>What a world.</p>

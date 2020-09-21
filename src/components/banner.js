@@ -1,8 +1,9 @@
 import React from "react"
+import "./banner.css"
 
-export default function Banner(props) {
+export default function Banner() {
     return (
-        <div style={{}}>
+        <div className="banner">
             
         </div>
     )

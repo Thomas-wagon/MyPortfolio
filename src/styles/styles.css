@@ -1,0 +1,17 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;  
+    margin: 0;
+    padding: 0;
+}
+
+.thomas{
+margin-left: 30px;
+font-size: 28px;
+font-weight: 700;
+}
+
+.viaules{
+font-size: 28px;
+font-weight: 300;
+} 
