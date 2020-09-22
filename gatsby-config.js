@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, `gatsby-plugin-sass`,
   { resolve: `gatsby-source-filesystem`, options: { path: `./src/icons/` } }
   ],
 }

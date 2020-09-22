@@ -1,5 +1,5 @@
 import React from "react"
-import "./banner.css"
+import "./banner.scss"
 import WebDev from "../images/web_dev_4.jpg"
 
 export default function Banner() {
