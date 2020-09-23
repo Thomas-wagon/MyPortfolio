@@ -8,7 +8,9 @@
     background-color: pink;
 
     .cards {
+        width: 95%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
     
@@ -19,6 +21,7 @@
         height: 320px;
         border-radius: 10px;
         perspective: 1000px;
+        margin: 10px auto;
     }
     
     /* container to position the front and back side */
@@ -49,8 +52,12 @@
     /* Style the front side */
     .card-front {
         color: black;
-        background: url('https://api.iconify.design/carbon:chart-3d.svg?color=white') no-repeat center center / contain;
+        // background: url('https://api.iconify.design/carbon:chart-3d.svg?color=white') no-repeat center center / contain;
         background-color: #6599FF;
+        .icons {
+            width: 50%;
+            height: 100%;
+        }
     }
     
     /* Style the back side */
@@ -67,7 +74,7 @@
         }
     
         h3, ul {
-        margin: 10px auto;
+            margin: 10px auto;
         }
     }
 }
