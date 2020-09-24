@@ -25,9 +25,12 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@iconify/icons-brandico": "^1.0.7",
     "@iconify/icons-carbon": "^1.0.6",
     "@iconify/icons-entypo": "^1.0.5",
+    "@iconify/icons-fa-brands": "^1.0.14",
     "@iconify/icons-fa-solid": "^1.0.12",
+    "@iconify/icons-mdi": "^1.0.138",
     "@iconify/react": "^1.1.3",
     "prettier": "2.1.1"
   },
