@@ -10,15 +10,9 @@ export default function Contact() {
         <div className="contact">
             <h2>Contact</h2>
             <div className="social-media">
-                <div className="icons">
-                    <Icon icon={linkedinRect} className="icon" />
-                </div>
-                <div className="icons">
-                    <Icon icon={gmailIcon} className="icon" />
-                </div>
-                <div className="icons">
-                    <Icon icon={githubSquare} className="icon" />
-                </div>
+                    <Icon icon={linkedinRect} className="linkedin" />
+                    <Icon icon={gmailIcon} className="gmail" />
+                    <Icon icon={githubSquare} className="github" />
             </div>
         </div>
     )

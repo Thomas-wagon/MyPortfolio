@@ -10,14 +10,24 @@
     .social-media {
         display: flex;
         justify-content: space-around;
-    }
-
-    .icons {
-        color: black;
+        align-items: center;
+        width: 75%;
+        height: 50px;
     }
     
-    .icon {
-        width: 50%;
+    .linkedin, .gmail, .github {
+        width: 100%;
+    }
+
+    .linkedin {
+        height: 100%;
+    }
+
+    .gmail {
+        height: 130%;
+    }
+
+    .github {
         height: 100%;
     }
 }

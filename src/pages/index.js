@@ -1,7 +1,7 @@
 import React from "react"
 
 //import general styles
-import "../styles/styles.css"
+import "./styles.css"
 
 // import component
 import Banner from "../components/banner"
@@ -10,7 +10,6 @@ import Toolkit from "../components/toolkit"
 import Projects from "../components/projects"
 import AboutMe from "../components/about_me"
 import Contact from "../components/contact"
-import Header from "../components/header"
 
 
 export default function Home() {
@@ -22,9 +21,6 @@ export default function Home() {
       <Projects></Projects>
       <AboutMe></AboutMe>
       <Contact></Contact>
-      <Header headerText="Hello Gatsby!" />
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
   )
 }
