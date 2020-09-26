@@ -6,7 +6,7 @@
     position: absolute;
     perspective: 100px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto;;
 }
 
 .parallax_layer{
@@ -20,18 +20,19 @@
         display: block;
         position: absolute;
         bottom: 0;
-        // object-fit: cover;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
 .parallax__cover{
-    background: #2A215C;
+    background: #282262;
     display: block;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 1500px;
     z-index: 2;
 }
 
