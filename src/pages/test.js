@@ -4,12 +4,12 @@ import React from "react"
 import "./styles.css"
 
 // import component
-import Banner2 from "../components/banner_2"
+import Banner from "../components/banner"
 
 export default function Test() {
     return (
       <div className="container">
-        <Banner2></Banner2>
+        <Banner></Banner>
       </div>
     )
   }
