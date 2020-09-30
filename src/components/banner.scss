@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 
-.banner {
+.app {
     perspective: 105px;
     background: linear-gradient(180deg, rgba(244,198,172,1) 00%, rgba(251,236,182,1) 40%, rgba(252,253,219,1) 60%);
     width: 100%;
@@ -10,6 +10,14 @@
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
+    padding-top: 100vh;
+}
+
+.container {
+    background: #2F2322;
+    z-index: 10;
+    position: relative;
+
 }
 
 .parallax_layer{
