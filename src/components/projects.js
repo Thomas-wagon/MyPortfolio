@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <div className="projects">
             <h2>Projects</h2>
-            <div className="my-portfolio">
+            <div className="card my-portfolio">
                 <div className="image">
                     <img src={MyPortfolio} alt="my portfolio"/>
                 </div>
@@ -21,7 +21,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className="yummy-palette">
+            <div className="card yummy-palette">
                 <div className="image">
                     <img src={YummyPalette} alt="Yummy Palette"/>
                 </div>

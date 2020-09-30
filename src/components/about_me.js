@@ -4,7 +4,7 @@ import "./about_me.scss"
 export default function AboutMe() {
     return (
         <div className="about-me">
-            <h2>Projects</h2>
+            <h2>About me</h2>
             <div className="profil">
                 <h3>Profil</h3>
                 <p>
