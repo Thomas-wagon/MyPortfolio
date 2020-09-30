@@ -14,13 +14,15 @@ import Contact from "../components/contact"
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="app">
       <Banner></Banner>
-      <Navbar></Navbar>
-      <Toolkit></Toolkit>
-      <Projects></Projects>
-      <AboutMe></AboutMe>
-      <Contact></Contact>
+      <div className="container">
+        <Navbar></Navbar>
+        <Toolkit></Toolkit>
+        <Projects></Projects>
+        <AboutMe></AboutMe>
+        <Contact></Contact>
+      </div>
     </div>
   )
 }

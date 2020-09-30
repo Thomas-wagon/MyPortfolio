@@ -11,7 +11,7 @@ import Layer8 from "../images/lake_layer_8.png"
 
 export default function Banner() {
     return (
-        <div className="banner">
+        <>
             <div className="parallax_layer parallax_layer_1">
                 <img src={Layer1} alt="parallax layer 1"/>
             </div>
@@ -36,7 +36,7 @@ export default function Banner() {
             <div className="parallax_layer parallax_layer_8">
                 <img src={Layer8} alt="parallax layer 8"/>
             </div>
-            <div class="parallax_cover"></div>
-        </div>
+
+        </>
     )
 }
