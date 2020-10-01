@@ -11,12 +11,12 @@ export default function Toolkit() {
         <div className="toolkit">
             <h2>Toolkit</h2>
             <div className="cards">
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-front">
                             <Icon icon={codeIcon} color="white" className="icons"/>
                         </div>
-                        <div class="card-back">
+                        <div className="card-back">
                             <h3>Languages and Frameworks</h3>
                             <ul>
                                 <li>Ruby</li>
@@ -28,12 +28,12 @@ export default function Toolkit() {
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-front">
                             <Icon icon={magicIcon} color="white" className="icons"/>
                         </div>
-                        <div class="card-back">
+                        <div className="card-back">
                             <h3>Frontend tools</h3>
                             <ul>
                                 <li>HTML5</li>
@@ -46,12 +46,12 @@ export default function Toolkit() {
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-front">
                             <Icon icon={databaseIcon} color="white" className="icons"/>
                         </div>
-                        <div class="card-back">
+                        <div className="card-back">
                             <h3>Backend tools</h3>
                             <ul>
                                 <li>PostgreSQL</li>
@@ -64,12 +64,12 @@ export default function Toolkit() {
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="card-front">
                             <Icon icon={chart3d} color="white" className="icons"/>
                         </div>
-                        <div class="card-back">
+                        <div className="card-back">
                             <h3>CAO softwares</h3>
                                 <ul>
                                     <li>SolidWorks</li>

@@ -36,7 +36,6 @@ export default function Banner() {
             <div className="parallax_layer parallax_layer_8">
                 <img src={Layer8} alt="parallax layer 8"/>
             </div>
-
         </>
     )
 }

@@ -1,7 +1,7 @@
 import React from "react"
 
 //import general styles
-import "./styles.css"
+import "./index.scss"
 
 // import component
 import Banner from "../components/banner"

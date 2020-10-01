@@ -8,30 +8,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
   .thomas {
     margin-left: 30px;
     font-size: 28px;
     font-weight: 700;
   }
-
+  
   .viaules {
     font-size: 28px;
     font-weight: 300;
   } 
-
+  
   p {
     margin: 0 30px;
   }
-
+  
   ul {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0 30px;
+    margin: 0 50px;
   }
-
+  
   a {
     text-decoration: none;
     color: white;
@@ -44,4 +44,13 @@
     border-radius: 12px;
     transition: 0.3s;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
